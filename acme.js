@@ -34,23 +34,25 @@ function getProduct(){
   })
 }
 
+function loadData(){
+  getCategory()
+  .then(function(val){
+    return getType()
+  })
+  .then(function(dataTypes){
+    console.log(dataTypes)
+  })
+  .then(function(val){
+    return getProduct()
+  })
+  .then(function(dataProducts){
+    console.log(dataProducts)
+  })
+}
+
 function setCategory(){
   category = $(".category").val()
-  if()
+  loadData()
 }
 
 $(".category").click(setCategory)
-
-getCategory()
-.then(function(val){
-  return getType()
-})
-.then(function(dataTypes){
-  console.log(dataTypes)
-})
-.then(function(val){
-  return getProduct()
-})
-.then(function(dataProducts){
-  console.log(dataProducts)
-})
