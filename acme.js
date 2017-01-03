@@ -1,4 +1,5 @@
 var category
+var type
 
 function getCategory(){
   return new Promise(function(resolve, reject) {
@@ -32,6 +33,13 @@ function getProduct(){
     })
   })
 }
+
+function setCategory(){
+  category = $(".category").val()
+  if()
+}
+
+$(".category").click(setCategory)
 
 getCategory()
 .then(function(val){
