@@ -1,4 +1,4 @@
-var category = $(".category").val()
+var category
 var type
 
 function getCategory(){
