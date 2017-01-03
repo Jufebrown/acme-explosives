@@ -15,7 +15,7 @@ function getType(){
       url: `json/types.json`
     })
     .then(function(data, textStatus, XHR){
-      resolve(data.id)
+      resolve(data)
     })
   })
 }
