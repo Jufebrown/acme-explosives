@@ -14,8 +14,8 @@ function getType(){
     $.ajax({
       url: `json/types.json`
     })
-    .then(function(dataType, textStatus, XHR){
-      resolve(dataType)
+    .then(function(dataTypes, textStatus, XHR){
+      resolve(dataTypes)
     })
   })
 }
@@ -25,8 +25,8 @@ function getProduct(){
     $.ajax({
       url: `json/products.json`
     })
-    .then(function(dataProduct, textStatus, XHR){
-      resolve(dataProduct)
+    .then(function(dataProducts, textStatus, XHR){
+      resolve(dataProducts)
     })
   })
 }
@@ -35,12 +35,12 @@ getCategory()
 .then(function(val){
   return getType()
 })
-.then(function(dataType){
-  console.log(dataType)
+.then(function(dataTypes){
+  console.log(dataTypes)
 })
 .then(function(val){
   return getProduct()
 })
-.then(function(dataProduct){
-  console.log(dataProduct)
+.then(function(dataProducts){
+  console.log(dataProducts)
 })
