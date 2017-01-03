@@ -1,4 +1,4 @@
-var category
+var category = $(".category").val()
 var type
 
 function getCategory(){
@@ -55,4 +55,4 @@ function setCategory(){
   loadData()
 }
 
-$(".category").click(setCategory)
+$(".category").mouseup(setCategory)
