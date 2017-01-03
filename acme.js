@@ -26,7 +26,15 @@ function getProduct(){
       url: `json/products.json`
     })
     .then(function(data, textStatus, XHR){
-      resolve(data.id)
+      resolve(data)
     })
   })
 }
+
+getCategory()
+.then(function(val){
+  return getType()
+})
+.then(function(data){
+  console.log(data)
+})
