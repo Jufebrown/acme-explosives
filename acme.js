@@ -1,1 +1,32 @@
-$.ajax("json/categories.json")
+function getCategory(){
+  return new Promise(function(resolve, reject) {
+    $.ajax({
+      url: `json/categories.json`
+    })
+    .then(function(data, textStatus, XHR){
+      resolve(data.id)
+    })
+  })
+}
+
+function getType(){
+  return new Promise(function(resolve, reject) {
+    $.ajax({
+      url: `json/types.json`
+    })
+    .then(function(data, textStatus, XHR){
+      resolve(data.id)
+    })
+  })
+}
+
+function getProduct(){
+  return new Promise(function(resolve, reject) {
+    $.ajax({
+      url: `json/products.json`
+    })
+    .then(function(data, textStatus, XHR){
+      resolve(data.id)
+    })
+  })
+}
