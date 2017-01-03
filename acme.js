@@ -55,4 +55,4 @@ function setCategory(){
   loadData()
 }
 
-$(".category").mouseup(setCategory)
+$(".show").click(setCategory)
