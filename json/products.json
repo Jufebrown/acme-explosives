@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "fairy_sparklers": {
+          "id": 0,
+          "type": 0,
+          "name": "Fairy Sparklers",
+          "description": "Multi-colored sparklers that are safe for any age."
+      }
+    },
+    {
+      "bottle_rockets": {
+          "id": 1,
+          "type": 0,
+          "name": "Bottle Rockets",
+          "description": "Great for shooting at neighbors."
+      }
+    },
+    {
+      "roman_candles": {
+          "id": 2,
+          "type": 0,
+          "name": "Roman Candles",
+          "description": "When you need to escalate."
+      }
+    },
+    {
+      "red_mortars": {
+          "id": 3,
+          "type": 1,
+          "name": "Red Mortars",
+          "description": "Explode in a red floral pattern."
+      }
+    },
+    {
+      "blue_mortars": {
+          "id": 4,
+          "type": 1,
+          "name": "Blue Mortars",
+          "description": "Explode in a blue floral pattern."
+      }
+    },
+    {
+      "smaug": {
+          "id": 5,
+          "type": 1,
+          "name": "Smaug",
+          "description": "Great for eleventy-first birthday parties."
+      }
+    },
+    {
+      "wht_illum_rnds": {
+          "id": 6,
+          "type": 2,
+          "name": "White Illumination Rounds",
+          "description": "Bathes the battlefield in white light."
+      }
+    },
+    {
+      "red_illum_rnds": {
+          "id": 7,
+          "type": 2,
+          "name": "Red Illumination Rounds",
+          "description": "Bathes the battlefield in red light."
+      }
+    },
+    {
+      "yel_illum_rnds": {
+          "id": 8,
+          "type": 2,
+          "name": "Yellow Illumination Rounds",
+          "description": "Bathes the battlefield in yellow light."
+      }
+    },
+    {
+      "oven_cleaners": {
+          "id": 9,
+          "type": 3,
+          "name": "Oven Cleaners",
+          "description": "Say goodbye to baked-on grease."
+      }
+    },
+    {
+      "suicide_vests": {
+          "id": 10,
+          "type": 3,
+          "name": "Action Figure Suicide Vests",
+          "description": "Bring GI Joe into the modern battlefield."
+      }
+    },
+    {
+      "exploding_cigars": {
+          "id": 11,
+          "type": 3,
+          "name": "Exploding Cigars",
+          "description": "Surgeon General's Warning: Smoking can cause loss of eyesight or nose."
+      }
+    },
+    {
+      "building_demolitions": {
+          "id": 12,
+          "type": 4,
+          "name": "Building Demolitions",
+          "description": "Take down a 200 year old building faster than you can say, 'Historical landmark.'"
+      }
+    },
+    {
+      "cement_mixer_cleaners": {
+          "id": 13,
+          "type": 4,
+          "name": "Cement Mixer Cleaners",
+          "description": "As Seen on Mythbusters!"
+      }
+    },
+    {
+      "pond_diggers": {
+          "id": 14,
+          "type": 4,
+          "name": "Pond Diggers",
+          "description": "No more need for renting excavators."
+      }
+    },
+    {
+      "ship_scuttlers": {
+          "id": 15,
+          "type": 5,
+          "name": "Ship Scuttlers",
+          "description": "For covering up multi-billion dollar defense boondoggles."
+      }
+    },
+    {
+      "hospital_bombs": {
+          "id": 16,
+          "type": 5,
+          "name": "Hospital Bombs",
+          "description": "Because Doctors Without Borders must be lying"
+      }
+    },
+    {
+      "satchel_charges": {
+          "id": 17,
+          "type": 5,
+          "name": "Satchel Charges",
+          "description": "Compact demolitions."
+      }
+    }
+  ]
+}
