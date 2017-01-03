@@ -1,3 +1,5 @@
+var category
+
 function getCategory(){
   return new Promise(function(resolve, reject) {
     $.ajax({
