@@ -1,0 +1,40 @@
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "industrial",
+            "description": "Fireworks intended for civic displays"
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "military",
+            "description": "Fireworks intended for battlefield illumination"
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "name": "personal",
+            "description": "Demolitions intended for household use"
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "industrial",
+            "description": "Demolitions intended for industrial applications"
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "name": "military",
+            "description": "Demolitions intended for military applications"
+        }
+    ]
+}
