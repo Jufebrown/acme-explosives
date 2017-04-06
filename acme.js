@@ -1,57 +1,64 @@
-var category
-var type
+`use strict`
 
+// variable initialization
+let category
+let type
 
-function getCategory(){
-  return new Promise(function(resolve, reject) {
+// gets explosive category
+const getCategory = () => {
+  return new Promise((resolve, reject) => {
     $.ajax({
       url: `json/categories.json`
     })
-    .then(function(data, textStatus, XHR){
+    .then((data, textStatus, XHR) => {
       resolve(data.id)
     })
   })
 }
 
-function getType(){
-  return new Promise(function(resolve, reject) {
+// gets explosive type
+const getType = () => {
+  return new Promise((resolve, reject) => {
     $.ajax({
       url: `json/types.json`
     })
-    .then(function(dataTypes, textStatus, XHR){
+    .then((dataTypes, textStatus, XHR) => {
       resolve(dataTypes)
     })
   })
 }
 
-function getProduct(){
-  return new Promise(function(resolve, reject) {
+// gets explosive product
+const getProduct = () => {
+  return new Promise((resolve, reject) => {
     $.ajax({
       url: `json/products.json`
     })
-    .then(function(dataProducts, textStatus, XHR){
+    .then((dataProducts, textStatus, XHR) => {
       resolve(dataProducts)
     })
   })
 }
 
-function loadData(){
+
+const loadData = () => {
   getCategory()
-  .then(function(val){
+  .then((val) => {
     return getType()
   })
-  .then(function(dataTypes){
+  .then((dataTypes){
     console.log(dataTypes)
   })
-  .then(function(val){
+  .then((val) => {
     return getProduct()
   })
-  .then(function(dataProducts){
+  .then((dataProducts) => {
     console.log(dataProducts)
   })
 }
 
-function setCategory(){
+// sets explosive category
+const setCategory = () => {
   category = $(".category").val()
   loadData()
 }
